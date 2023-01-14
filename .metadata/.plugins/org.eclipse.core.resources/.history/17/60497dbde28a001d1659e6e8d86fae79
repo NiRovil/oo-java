@@ -1,0 +1,13 @@
+
+public class Condicionais {
+	public static void main(String[] args) {
+
+		int idade = 24;
+		
+		if (idade >= 18) {
+			System.out.println("Maior de 18 anos!");
+		} else {
+			System.out.println("Menor de 18 anos!");
+		}
+	}
+}

@@ -1,0 +1,23 @@
+
+public class Gerente extends Funcionario {
+	
+	private int senha;
+	
+	public void setSenha(int senha) {
+		this.senha = senha;
+	}
+	
+	public boolean autentica(int senha) {
+		if(this.senha == senha) {
+			return true;
+		}
+		return false;
+	}
+	
+	//reescrevendo o método
+	public double getBonificacao() {
+		//super para enxergar metodos e atributos da classe mae
+		System.out.println("Testando o polimorfismo da classe Gerente!");
+		return super.getBonificacao() + super.getSalario();
+	}
+}

@@ -1,0 +1,13 @@
+
+public class Gerente extends Autenticavel {
+	
+	//reescrevendo o método
+	@Override
+	public double getBonificacao() {
+		//super para enxergar metodos e atributos da classe mae
+		System.out.println("Testando o polimorfismo da classe Gerente!");
+		return super.getSalario();
+	}
+	
+	
+}
