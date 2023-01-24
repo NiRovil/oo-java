@@ -6,8 +6,8 @@ public class ContaPoupanca extends Conta {
 	}
 	
 	@Override
-	public boolean saca(double valor) {
-		return super.saca(valor + 2);
+	public void saca(double valor) throws SaldoInsuficiente{
+		super.saca(valor + 2);
 	}
 
 }
