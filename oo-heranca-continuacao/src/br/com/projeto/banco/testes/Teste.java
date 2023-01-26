@@ -1,3 +1,6 @@
+package br.com.projeto.banco.testes;
+import br.com.projeto.banco.modelo.ContaCorrente;
+import br.com.projeto.banco.modelo.ContaPoupanca;
 
 public class Teste {
 

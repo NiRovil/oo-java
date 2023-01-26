@@ -1,3 +1,5 @@
+package br.com.projeto.banco.modelo;
+
 public abstract class Conta {
 	private double saldo;
 	private int agencia;

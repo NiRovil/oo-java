@@ -1,3 +1,4 @@
+package br.com.projeto.banco.modelo;
 
 public class ContaCorrente extends Conta {
 	

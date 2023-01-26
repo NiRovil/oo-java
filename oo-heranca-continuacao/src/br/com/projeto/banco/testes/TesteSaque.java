@@ -1,3 +1,7 @@
+package br.com.projeto.banco.testes;
+import br.com.projeto.banco.modelo.Conta;
+import br.com.projeto.banco.modelo.ContaPoupanca;
+import br.com.projeto.banco.modelo.SaldoInsuficiente;
 
 public class TesteSaque {
 
