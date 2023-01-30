@@ -13,11 +13,12 @@ public class Teste {
 		cp.deposita(500);
 		
 		//cp.saca(5);
-		cc.transfere(50, cp);
-		cp.transfere(50, cc);
+		//cc.transfere(50, cp);
+		//cp.transfere(50, cc);
 		
 		System.out.println(cc.getSaldo());
 		System.out.println(cp.getSaldo());
+		
 
 	}
 

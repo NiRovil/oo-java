@@ -15,7 +15,6 @@ public abstract class Conta {
 	//construtor, geralmente inicializado automaticamente
 	public Conta(int agencia, int numero) {
 		totalDeContas++;
-		System.out.println("O total de contas criadas é de: " + totalDeContas);
 		this.agencia = agencia;
 		this.numero = numero;
 	}
@@ -67,5 +66,16 @@ public abstract class Conta {
 	//método da classe
 	public static int getTotalDeContas() {
 		return totalDeContas;
+	}
+	
+	@Override
+	public boolean equals(Object ref) {
+		Conta oRef = (Conta) ref;
+		
+		if(this.agencia != oRef.agencia) {
+			return false;
+		}
+		
+		return true;
 	}
 }
