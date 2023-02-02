@@ -1,6 +1,8 @@
 package br.com.projeto.banco.modelo;
 
-public abstract class Conta {
+import java.io.Serializable;
+
+public abstract class Conta implements Serializable{
 	private double saldo;
 	private int agencia;
 	private int numero;
