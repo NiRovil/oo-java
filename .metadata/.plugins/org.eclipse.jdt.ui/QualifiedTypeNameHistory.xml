@@ -21,4 +21,6 @@
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="br.com.projeto.banco.modelo.Conta"/>
     <fullyQualifiedTypeName name="br.com.projeto.banco.modelo.ContaCorrente"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
 </qualifiedTypeNameHistroy>
