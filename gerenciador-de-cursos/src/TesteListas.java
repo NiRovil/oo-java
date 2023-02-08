@@ -22,12 +22,23 @@ public class TesteListas {
 		
 		System.out.println(aulas);
 		
-		//Mostrando as aulas separadas
+		System.out.println("-----------------");
+		
+		//Mostrando as aulas separadas da forma tradicional
 		for (String aula : aulas) {
 			System.out.println(aula);
 		}
 		
+		System.out.println("-----------------");
+		
+		//Mostrando as aulas separadas usando um lambda
 		aulas.forEach(aula -> System.out.println(aula));
+		
+		System.out.println("-----------------");
+		
+		//Mostrando as aulas separadas usando o mesmo lambda porém de forma mais enxuta
+		//method reference
+		aulas.forEach(System.out::println);
 		
 	}
 

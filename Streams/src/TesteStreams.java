@@ -1,7 +1,7 @@
-import java.util.Comparator;
-import java.util.Map;
+import java.util.ArrayList;
+import java.util.List;
 
-public class TesteSets {
+public class TesteStreams {
 
 	public static void main(String[] args) {
 
@@ -30,6 +30,16 @@ public class TesteSets {
 		//Trabalhando com o método equals
 		Aluno novo = new Aluno("Aluno2", 5646);
 		System.out.println(novo.equals(a1));
+		
+		System.out.println("--------------------");
+		System.out.println("Trabalhando com lambdas e streams!");
+		System.out.println("--------------------");
+		
+		List<Aluno> alunos = new ArrayList<>();
+		alunos.add(a1);
+		alunos.add(a2);
+		alunos.add(a3);
+		alunos.add(a4);
 	
 	}
 
