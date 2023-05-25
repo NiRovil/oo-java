@@ -32,4 +32,7 @@
     <fullyQualifiedTypeName name="jUnit.Calculadora"/>
     <fullyQualifiedTypeName name="junit.framework.Assert"/>
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="entities.HourContract"/>
+    <fullyQualifiedTypeName name="entities.enums.WorkerLevel"/>
 </qualifiedTypeNameHistroy>
