@@ -61,7 +61,6 @@ public class App {
 		}
 		System.out.print("Total price: " + order.total());
 		
-		
 		sc.close();
 
 	}
