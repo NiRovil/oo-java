@@ -12,6 +12,9 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/home/keziah/Estudos/Java/descomplica-spring/modulo4/codigo_fonte"/>
+			<item value="/home/keziah/Estudos/Java/descomplica-spring/modulo5/codigo_fonte"/>
+			<item value="/home/keziah/Estudos/Java/descomplica-spring"/>
 			<item value="/home/keziah/Estudos/Java/eclipse-workspace/oo-java/exerciciosDevSuperior"/>
 			<item value="/home/keziah/eclipse-workspace/oo-java/java-io"/>
 		</list>
