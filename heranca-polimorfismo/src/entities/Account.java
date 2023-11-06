@@ -32,11 +32,11 @@ public class Account {
 		return balance;
 	}
 	
-	public void withdraw(double amount) {
-		this.balance -= amount;
+	public void withdraw(Double amount) {
+		this.balance -= amount + 5;
 	}
 	
-	public void deposit(double amount) {
+	public void deposit(Double amount) {
 		this.balance += amount;
 	}
 	
